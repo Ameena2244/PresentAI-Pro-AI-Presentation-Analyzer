@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PresentAI Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/css/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar glass">
+      <div class="container">
+        <a class="navbar-brand" href="#">PresentAI Pro</a>
+      </div>
+    </nav>
+
+    <main class="container py-4">
+      <h1>PresentAI Pro — AI Presentation Analyzer</h1>
+      <form id="uploadForm">
+        <label class="btn btn-neon">Choose file<input type="file" id="fileInput" name="file" hidden></label>
+        <button type="submit" class="btn btn-primary">Upload & Analyze</button>
+      </form>
+      <div id="status" class="mt-3 muted"></div>
+
+      <section id="results" class="mt-4" style="display:none">
+        <h3>Scores</h3>
+        <canvas id="radarChart" height="200"></canvas>
+        <canvas id="barChart" height="150"></canvas>
+        <canvas id="doughnutChart" height="150"></canvas>
+        <h3 class="mt-4">Quick Suggestions</h3>
+       <div id="quickSuggestions" class="glass p-3"></div>
+        <h3 class="mt-4">Project Readiness</h3>
+       <div id="readinessCard" class="glass p-3"></div>
+       <h3 class="mt-4">Questions Judges May Ask</h3>
+<div id="judgeQuestions" class="glass p-3"></div>
+        <h3 class="mt-4">Skill Fest Success Predictor</h3>
+<div id="winningCard" class="glass p-3"></div>
+  </section>
+    </main>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>

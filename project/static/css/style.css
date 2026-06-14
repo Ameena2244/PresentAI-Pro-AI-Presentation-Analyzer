@@ -1,0 +1,6 @@
+:root{--primary:#00F5FF;--secondary:#7B61FF;--bg:#050816;--card:rgba(255,255,255,0.06);--muted:#B8C1EC}
+body{background:var(--bg);color:#fff;font-family:Inter,system-ui,Arial;margin:0}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.glass{background:var(--card);backdrop-filter:blur(8px);border-radius:10px;padding:8px}
+.btn-neon{background:linear-gradient(90deg,var(--primary),var(--secondary));color:#041027;border:none;padding:8px 12px;border-radius:8px}
+.muted{color:var(--muted)}
