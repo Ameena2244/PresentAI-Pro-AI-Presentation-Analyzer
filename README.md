@@ -1,3 +1,12 @@
+SCREENSHOT
+<img width="1366" height="720" alt="Screenshot 2026-06-14 210553" src="https://github.com/user-attachments/assets/628d037f-68d4-481b-b9b4-0ed69338d230" />
+<img width="1366" height="720" alt="Screenshot 2026-06-14 210625" src="https://github.com/user-attachments/assets/bff43fac-5beb-49dd-a195-24310454607c" />
+<img width="1366" height="720" alt="Screenshot 2026-06-14 210639" src="https://github.com/user-attachments/assets/7b4520d3-6d0e-4164-b086-147dbd08a9e3" />
+<img width="1366" height="720" alt="Screenshot 2026-06-14 210712" src="https://github.com/user-attachments/assets/4ba8cbcf-bd9b-4f81-8d64-7b82085f4049" />
+<img width="1152" height="270" alt="Screenshot 2026-06-14 210818" src="https://github.com/user-attachments/assets/503a62a1-fcca-400d-ae5a-d7a743d10e9e" />
+<img width="1366" height="720" alt="Screenshot 2026-06-14 210731" src="https://github.com/user-attachments/assets/4de399e6-6254-4304-a123-b8425c07e6ca" />
+
+
 # PresentAI Pro
 
 A full Flask-based AI presentation analyzer with real file upload, text extraction, Gemini integration, and fallback analysis.
